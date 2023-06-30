@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mi Formulario de Registro</title>
+    </head>
+    <body>
+        <h1>Mi Formulario de Registro</h1>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ingrese su Nombre" required>
+        
+        <br><br>
+        
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Ingrese su Apellido" required>
+        
+        <br><br>
+        
+        <label for="mail">Email:</label>
+        <input type="email" id="mail" name="mail" placeholder="MyMail@hotmail.com" required>
+
+        <br><br>
+
+        <label for="contraseña">Contraseña:</label>
+        <input type="password" id="contraseña" name="contraseña" pattern="(?=a-z)(?=A-Z)(?=*/d){7,}" placeholder="Ingrese una Contraseña" required>
+
+        <br><br>
+
+        <label for="confirm">Confirmar:</label>
+        <input type="password" id="contraseña" name="contraseña" pattern="(?=a-z)(?=A-Z)(?=*/d){7,}" placeholder="Confirme su Contraseña">
+
+        <br><br>
+
+        <label for="cumpleaños">Cumpleaños:</label>
+        <input type="date" id="cumpleaños" name="cumpleaños">
+
+        <br><br>
+
+        <input type="radio" id="masculino" name="genero" value="masculino">
+        <label for="masculino">Masculino</label>
+
+        <input type="radio" id="femenino" name="genero" value="femenino">
+        <label for="femenino">Femenino</label>
+
+        <input type="radio" id="otro" name="genero" value="otro">
+        <label for="otro">Otro</label>
+
+        <br><br>
+
+        <label for="descripcion">Una Breve Descripción de ti:</label>
+        <textarea rows="4" cols="50" id="descripcion" placeholder="Cuentanos Sobre Ti"></textarea>
+        
+        <br><br>
+
+        <label for="lenguaje">Lenguaje Favorito:</label>
+        <select id="lenguaje" name="lenguaje">
+            <option value="">Seleccione un Lenguaje</option>
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="JAVASCRIPT">JavaScript</option>
+        </select>
+
+
+        <button type="submit">Enviar</button>
+</body>
+</html>
+
+
+
