@@ -1,0 +1,155 @@
+body {
+    background-color: white;
+}
+#header {
+    text-align: left;
+    background-color: #151C4F;
+    color: whitesmoke;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+span {
+    color: #3B4FD3;
+}
+
+.links {
+    color: white;
+    text-decoration: none;
+    text-align: right;
+    display: flex;
+    position: relative;
+    align-items: center;
+    font-size: large;
+    margin: 5px;
+}
+
+/*main content below*/
+
+#mainContent {
+    position: relative;
+    top: 50px;
+    text-align: center;
+    padding: 10px;
+}
+
+#mainImg {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 65px;
+    width: 100%;
+    height: auto;
+}
+
+.bloque1, .bloque2, .bloque3 {
+    background-color: #3647BA;
+    color: whitesmoke;
+    width: 360px;
+    height: 300px;
+    display: inline-block;
+    position: relative;
+    vertical-align: bottom;
+    top: 90px;
+    margin: 10px;
+    text-align: left;
+    padding: 10px;
+    justify-content: left;
+    align-items: center;
+    border: none;
+}
+
+.bloque1 h1, .bloque2 h1, .bloque3 h1 {
+    margin-right: 10px;
+    display: inline-block;
+    text-align: start;
+}
+
+.bloque1 .icon .bloque2 .icon .bloque3 .icon {
+    margin-right: 10px;
+    display: inline-block;
+}  
+
+.myButton {
+    background-color: #6bbaec;
+    color: whitesmoke;
+    border: #3647BA;
+    border-radius: 5px 5px;
+    width: 150px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+#icon {
+    width: 30px;
+    height: 30px;
+    align-items: start;
+}
+
+/*world can be yours below*/
+
+#world {
+    position: relative;
+    top: 80px;
+    text-align: left;
+}
+
+#world img {
+    position: relative;
+    text-align: left;
+    width: 460px;
+    height: auto;
+}
+
+
+#text {
+    position: relative;
+    text-align: justify;
+    width: 300px;
+    vertical-align: top;
+    padding: 10px;
+    align-content: center;
+    display: inline-block;
+    left: 80px;
+    bottom: 200px;
+}
+
+#testimonial {
+    position: relative;
+    text-align: justify;
+    width: 100px;
+    height: auto;
+    vertical-align: top;
+    padding: 10px;
+    align-content: center;
+    display: inline-block;
+    left: 110px;
+    bottom: 250px;
+}
+
+
+.testCuadrado {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background: #BFE4FB;
+    padding: 10px;
+}
+
+#footer  {
+    background: #E2FBFB;
+    color: #151C4F;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 20px;
+    text-decoration: none;
+    margin-right: 5px ;
+}
